@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>pe.nikescar.bingtray</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT OR Apache-2.0</project_license>
+  <name>BingTray</name>
+  <summary>Bing Wallpaper Manager</summary>
+  <description>
+    <p>
+      A cross-platform wallpaper manager that downloads and manages Bing's weekly wallpapers.
+      Bing wallpapers are updated weekly sets of 8 images.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Download wallpapers from multiple Bing markets</li>
+      <li>Automatic wallpaper rotation</li>
+      <li>Favorite wallpapers management</li>
+      <li>Blacklist unwanted wallpapers</li>
+      <li>System tray integration</li>
+      <li>Cross-platform support</li>
+    </ul>
+  </description>
+  <categories>
+    <category>Graphics</category>
+    <category>Photography</category>
+  </categories>
+  <keywords>
+    <keyword>wallpaper</keyword>
+    <keyword>background</keyword>
+    <keyword>bing</keyword>
+    <keyword>desktop</keyword>
+  </keywords>
+  <developer id="pe.nikescar">
+    <name>nikescar</name>
+  </developer>
+  <url type="homepage">https://github.com/nikescar/bingtray</url>
+  <url type="bugtracker">https://github.com/nikescar/bingtray/issues</url>
+  <url type="vcs-browser">https://github.com/nikescar/bingtray</url>
+  <launchable type="desktop-id">pe.nikescar.bingtray.desktop</launchable>
+  <provides>
+    <binary>bingtray</binary>
+  </provides>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window showing wallpaper gallery</caption>
+      <image>https://raw.githubusercontent.com/nikescar/bingtray/v0.0.14/imgs/egui1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Wallpaper settings and preferences</caption>
+      <image>https://raw.githubusercontent.com/nikescar/bingtray/v0.0.14/imgs/egui2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Wallpaper management interface</caption>
+      <image>https://raw.githubusercontent.com/nikescar/bingtray/v0.0.14/imgs/egui3.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>System tray menu</caption>
+      <image>https://raw.githubusercontent.com/nikescar/bingtray/v0.0.14/imgs/traymenu.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="0.0.14" date="2026-03-19">
+      <description>
+        <p>Latest release with improved stability and features</p>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="violence-fantasy">none</content_attribute>
+    <content_attribute id="violence-realistic">none</content_attribute>
+    <content_attribute id="violence-bloodshed">none</content_attribute>
+    <content_attribute id="violence-sexual">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="drugs-narcotics">none</content_attribute>
+    <content_attribute id="drugs-tobacco">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="language-humor">none</content_attribute>
+    <content_attribute id="language-discrimination">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+    <content_attribute id="social-info">mild</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="social-location">none</content_attribute>
+    <content_attribute id="social-contacts">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+  </content_rating>
+</component>
